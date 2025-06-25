@@ -30,7 +30,7 @@ const spausdintiHtmle = (klaida, duomenys) => {
 
 const sukurtiTodoElementa = (elementas) => {
     const div = document.createElement('div');
-    div.innerText = elementas.title
+    div.innerText = `${elementas.id} ) ${elementas.title}`;
     document.getElementById('todos-itemai').appendChild(div);
 }
 
