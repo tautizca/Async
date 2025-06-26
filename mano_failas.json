@@ -1,0 +1,16 @@
+{
+    "tekstas": "Labas Pasauli!",
+    "autorius": "Jonas",
+    "data": "2024-06-20",
+    "kategorija": "Sveikinimas",
+    "id": 1,
+    "matyta": false,
+    "ivertinimas": 4.5,
+    "komentarai": [
+        {
+            "vartotojas": "Petras",
+            "zinute": "Puikus tekstas!",
+            "laikas": "2024-06-20T10:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+
+#klaidos {
+    color: red;
+    font-weight: bold;
+}
+
+.img-item {
+    border: 1px solid black;
+    margin: 3px 0;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.img-item:hover {
+    background-color: #f0f0f0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.img-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-item span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+#produktai {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
